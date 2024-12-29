@@ -2,7 +2,7 @@ import productIdeas from 'data/productIdeas';
 
 const ProductIdeaSection = () => {
   return (
-    <section className="max-w-[1100px] w-full  mx-auto">
+    <section className="max-w-[1100px] w-full   mx-auto">
       <h2 className="text-4xl text-black font-bold block ml-20 mt-36 mb-14 ">
         Deation & Evaluation - Best Way <br /> to Kick off Your Product Idea
       </h2>

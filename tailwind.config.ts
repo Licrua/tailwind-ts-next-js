@@ -10,9 +10,12 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+		regularWhite: '#FFFFFF',
       },
 	  backgroundImage: {
 		'custom-bg': "url('/images/bg-main.png')",
+		'custom-footer-bg':"url('/images/footer-bg.jpg')",
+
 	  },
     },
   },

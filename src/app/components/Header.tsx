@@ -1,9 +1,7 @@
 import Image from 'next/image';
-// import logo from '/images/Logo.svg'
 
 export default function Header() {
   return (
-    // <header className="flex mx-auto justify-between  h-[43px] ">
     <>
       <Image src="images/Logo.svg" width={256} height={39} alt="logo" />
       <div className="relative mr-[144px]">
@@ -17,6 +15,5 @@ export default function Header() {
         </button>
       </div>
     </>
-    // </header>
   );
 }
