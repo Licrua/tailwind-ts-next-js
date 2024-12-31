@@ -8,7 +8,7 @@ const FooterAdditionalInfo = () => {
   return (
     <section className="grid mt-[60]  pr-10 gap-10 sm:grid-cols-2 lg:grid-cols-4">
       {footerData.map((item) => (
-        <FooterList items={item} />
+        <FooterList key={item.id} items={item} />
       ))}
       <div className='flex flex-col gap-4 items-center sm:items-stretch  relative before:content-[""] before:w-0.5 before:h-full  before:-left-20  before:top-0 before:bg-[#5D6544] before:absolute'>
         <h3 className="text-regularWhite font-semibold">Get in Touch</h3>
