@@ -8,9 +8,9 @@ type FooterListProps = {
 };
 
 const FooterList = ({ items }: FooterListProps) => (
-  <div className="flex flex-col gap-5">
+  <div className="flex flex-col items-center sm:items-stretch gap-5">
     <h3 className="font-bold text-regularWhite">{items.title}</h3>
-    <ul className=" flex gap-3 flex-col">
+    <ul className=" flex gap-3  flex-col">
       {items.list.map((item, index) => (
         <li className="text-[#B6C197]" key={index}>
           <a

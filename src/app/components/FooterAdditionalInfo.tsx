@@ -6,17 +6,17 @@ import { faGooglePlusG } from '@fortawesome/free-brands-svg-icons';
 
 const FooterAdditionalInfo = () => {
   return (
-    <section className="grid mt-[60]  gap-10 grid-cols-4">
+    <section className="grid mt-[60]  pr-10 gap-10 sm:grid-cols-2 lg:grid-cols-4">
       {footerData.map((item) => (
         <FooterList items={item} />
       ))}
-      <div className='flex flex-col gap-4 relative before:content-[""] before:w-0.5 before:h-full  before:-left-20  before:top-0 before:bg-[#5D6544] before:absolute'>
+      <div className='flex flex-col gap-4 items-center sm:items-stretch  relative before:content-[""] before:w-0.5 before:h-full  before:-left-20  before:top-0 before:bg-[#5D6544] before:absolute'>
         <h3 className="text-regularWhite font-semibold">Get in Touch</h3>
-        <p className="text-[#B6C197] min-w-[270]">
+        <p className="text-[#B6C197] lg:min-w-[270]">
           Feel free to get in touch with us vai email
         </p>
         <a
-          className="text-2xl hover:underline font-bold text-white"
+          className="text-sm lg:text-2xl  hover:underline font-bold text-white"
           href="mailto:info.webovio@gmail.com"
         >
           info.webovio@gmail.com

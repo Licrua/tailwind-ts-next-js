@@ -2,11 +2,11 @@ import productIdeas from 'data/productIdeas';
 
 const ProductIdeaSection = () => {
   return (
-    <section className="max-w-[1100px] w-full   mx-auto">
-      <h2 className="text-4xl text-black font-bold block ml-20 mt-36 mb-14 ">
+    <section className="max-w-[1100px] w-full max-lg: p-10  mx-auto">
+      <h2 className="text-4xl text-black max-sm:text-center font-bold block ml-20 mt-36 mb-14 ">
         Deation & Evaluation - Best Way <br /> to Kick off Your Product Idea
       </h2>
-      <div className="flex justify-center gap-7">
+      <div className="flex justify-center gap-7 max-sm:flex-wrap">
         {productIdeas.map(
           (item, index) => (
             <div

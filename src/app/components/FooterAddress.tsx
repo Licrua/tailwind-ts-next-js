@@ -1,6 +1,6 @@
 const FooterAddress = () => {
 	return (
-		<address className="grid max-w-[452] grid-cols-2 ">
+		<address className="grid max-w-[452] justify-center  sm:grid-cols-2 sm:justify-stretch ">
 		<div>
 		  <h3 className="text-[#B6C197] text-base">Phone</h3>
 		  <a
